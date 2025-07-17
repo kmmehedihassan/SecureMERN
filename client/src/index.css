@@ -1,0 +1,17 @@
+/* client/src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global overrides */
+body {
+  @apply bg-gray-100 font-sans text-gray-800;
+}
+
+.container {
+  @apply mx-auto px-4 sm:px-6 lg:px-8;
+}
+
+a {
+  @apply text-indigo-600 hover:text-indigo-800;
+}

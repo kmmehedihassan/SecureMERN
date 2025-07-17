@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# macOS
+.DS_Store
+
+# Locust reports
+locust-report_*
+locust-report*.csv
+
+# Node/npm
+node_modules/
+package-lock.json
+
+# Virtualenv
+.venv*/
+
+# Editor swap files
+*~

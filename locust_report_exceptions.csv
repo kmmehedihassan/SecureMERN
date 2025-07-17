@@ -1,0 +1,17 @@
+Count,Message,Traceback,Nodes
+20782,'AuthTasks' object has no attribute 'user_id',"  File ""/Users/mehedi/Documents/SecureMern/.venv/lib/python3.13/site-packages/locust/user/task.py"", line 340, in run
+    self.execute_next_task()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File ""/Users/mehedi/Documents/SecureMern/.venv/lib/python3.13/site-packages/locust/user/task.py"", line 373, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/Users/mehedi/Documents/SecureMern/.venv/lib/python3.13/site-packages/locust/user/task.py"", line 487, in execute_task
+    task(self.user).run()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File ""/Users/mehedi/Documents/SecureMern/.venv/lib/python3.13/site-packages/locust/user/task.py"", line 325, in run
+    self.on_start()
+    ~~~~~~~~~~~~~^^
+  File ""/Users/mehedi/Documents/SecureMern/locustfile.py"", line 11, in on_start
+    ""email"": f""user{self.user_id}@loadtest.local"",
+                    ^^^^^^^^^^^^
+",local
